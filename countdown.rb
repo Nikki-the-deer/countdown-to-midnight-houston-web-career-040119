@@ -2,8 +2,8 @@
 
 def countdown(output)
   while output > 0 do
-    "#{output} SECOND(S)!"
-    int -= 1
+    puts "#{output} SECOND(S)!"
+    output -= 1
   end
   puts "HAPPY NEW YEAR!"
 end
